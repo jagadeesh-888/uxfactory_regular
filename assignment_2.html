@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="pizza form">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>pizza form</title> 
+    </head>
+    <body>
+        <table border="1">
+            <form>
+                <tr>
+                    <th colspan="2" class="name">PIZZA HUB</th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td>
+                        <input type="text" name="name" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Topping</td>
+                    <td>
+                        <input type="radio" name="topping">Chicken Dominator  <br>
+                        <input type="radio" name="topping">Veg Pizza <br>
+                        <input type="radio" name="topping">Mexican Green Wave <br>
+                        <input type="radio" name="topping">Cheese Tomato <br>
+                        <input type="radio" name="topping">creamy Tomato Pizza <br>
+                        <input type="radio" name="topping">Con Cheese Pizza <br>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pizza Sauce</td>
+                    <td>
+                        <select name="sauce">
+                            <option value="Thanduri chicken">Thanduri Chicken</option>
+                            <option value="Chicken fiesta">Chicken Fiesta</option>
+                            <option value="Indi chicken tikka">Indi Chicken Tikka</option>
+                            <option value="Pasta pizza">Pasta Pizza</option>
+                            <option value="Mexican green wave">Mexican Green Wave</option>
+                            <option value="Paneer makhani">Paneer Makhani</option>
+                            <option value="Cheese n tamato">Cheese n Tamato</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Optional Extras</td>
+                    <td>
+                        <input type="checkbox" name="extra1" />Extra Cheese
+                        <input type="checkbox" name="extra2" />Gulten Free Base
+                        <input type="checkbox" name="extra3" />Extra tamato sauce
+                        <input type="checkbox" name="extra4" />Crisp capsicum
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">Delivery Instructions:
+                        <br>
+                        <textarea rows="6" cols="50" name="textarea"></textarea>
+                    </td>
+
+                </tr>
+                <!-- <tr>
+                    <td colspan="2" >
+                        <textarea rows="6" cols="50" name="textarea"></textarea>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Send My Order">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html> 
