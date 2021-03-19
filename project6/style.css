@@ -1,0 +1,370 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* header styling */
+header
+{
+    background-color: #f5f3f4;
+    height: 60px; 
+}
+header h1
+{
+    display: inline;
+    padding-left: 200px;
+    /* padding-top: 20px; */
+}
+header i
+{
+    /* float: right; */
+    padding-left: 840px;
+    padding-bottom: 5px;   
+}
+header p
+{
+    display: inline;
+    float: right;
+    padding-right: 190px;
+    padding-top: 15px;
+    /* padding-left: 10px; */
+}
+header span
+{
+    color: #4361ee;
+}
+/* navigation bar styling */
+.navbar
+{
+    padding-left: 200px;
+}
+.navbar li 
+{
+    display: inline;
+}
+.navbar
+{
+    margin-top: 10px;
+}
+.navbar ul
+{
+    display: inline;
+}
+.searchBtn
+{
+    float: right;
+    width: 150px;
+    margin-right: 200px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.808);
+    text-align: left;
+}
+.searchIcon
+{
+    float: right;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+li a
+{
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+a:hover
+{
+    color: blue;
+}
+.row
+{
+    margin-top: 10px;
+}
+div .row
+{
+    margin-top: 10px;
+    height: 400px;
+}
+.card img
+{
+    float: left;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 60px;
+}
+/* mobile advertisment div styling */
+.card
+{
+    background-color: #fb6007dc;
+    height: 250px;   
+}
+#lefticon
+{
+    float: left;
+    padding-left: 250px;
+    padding-top: 120px;
+    color: white;
+}
+.card .heading
+{
+    padding-top: 30px;
+    color: white;
+    /* float: left; */
+    /* padding: 50px; */
+    margin-right: 80px;
+    font-size: 40px;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+.card p
+{
+    padding-top: 10px;
+    color: white;
+    /* float: left; */
+    /* margin-left: 100px; */
+    padding-left: 100px;
+}
+.card button
+{
+    float: left;
+    border: none;
+    background-color: black;
+    padding: 8px;
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.card #righticon
+{
+    padding-left: 400px;
+    /* padding-top: 10px; */
+    color: white;
+    padding-bottom: 60px;
+    /* margin-top: 30px; */
+}
+/* Mobile types div styling */
+.rows, .rows1
+{
+    padding-left: 20%;
+    margin-top: 10px;
+}
+.columns
+{
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.columns, .columns1, .columns2, .columns3
+{
+    float: left;
+    width: 25%;
+    height: 200px;
+    padding: 0 10px;
+}
+.cards1
+{
+    color: white;
+    background-color: #0eb8da;
+}
+.cards2
+{
+    background-color: purple;
+    color: white;
+}
+.cards3
+{
+    background-color: #8ac926;
+    color: white;
+    /* margin-right: 23%; */
+    float: none;
+}
+.cards3 img
+{
+    border-color: white;
+    color: white;
+}
+ .icons
+{
+    font-size: 70px;
+    float: left;
+    padding: 15px;
+}
+.card1Head
+{
+    font-size: 40px;
+    font-weight: 10;
+}
+.firstPara
+{
+    margin-top: 35px;
+    padding: 15px;
+}
+.secondPara
+{
+    margin-top: 10px;
+    padding: 15px;
+}
+/* New products and Best sellers div styling */
+.part5Heading, .part7Heading, .part9Heading
+{
+    float: right;
+    margin-top: 10px;
+    margin-right: 1090px;
+    margin-left: 220px;
+    display: block;
+} 
+.cardsPart3
+{
+    border: 1px solid gainsboro;
+    height: 200px;
+}
+.cardsPart3 .images
+{
+    padding: 10px;
+    float: left;
+}
+.stars
+{
+    margin-top: 20px;
+    color: goldenrod;
+    font-size: 10px;
+    display: inline-block;
+}
+.mobileNames, .mobilePrices
+{
+    margin: 5px;
+    /* margin-top: 0; */
+}
+.para
+{
+    margin-bottom: 0;
+}
+.cardsPart3 h4{
+    color: purple;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-weight: bolder;
+}
+.cardsPart3 .cartBtns
+{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+.cardsPart3 .cartBtns1
+{
+    background-color: #0eb8da;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+/* From the blog div styling */
+.part7Heading
+{
+    margin-right: 1110px;
+}
+.cardsPart4 .commentTag
+{
+    margin-top: 10px;   
+}
+.cardsPart4 span
+{
+    color: #7209b7;
+}
+.cardsPart4 a
+{
+    margin-left: 60px;
+    text-decoration: none;
+    color: #48cae4;
+}
+/* last div styling */
+.lastDiv
+  {
+      float: left;
+      margin-top: 100px;
+      width: 100%;
+      padding-left: 300px;
+      background-color: rgb(211, 207, 207);
+      /* background-color: gray; */
+  }
+  .lastDiv .columns3
+  {
+      width: 20%;
+      /* background-color: rgb(211, 207, 207);  */
+      height: 250px;
+       margin-top: 20px; 
+  }
+   .cardsPart5 .images
+  {
+      float: left;
+  }
+  .cardsPart5 b
+  {
+      display: block;
+  } 
+  .cardsPart5 .images
+  {
+      float: left;
+      margin-right: 10px;   
+  }
+  .cardsPart5 h5
+  {
+      color: #8ac926;
+      /* margin-top: 30px; */
+  }
+  .cardsPart5 h3
+  {
+      margin-bottom: 10px;
+  }
+  .cardsPart5 b
+  {
+      display: block;
+      margin-bottom: 50px;
+      float: none;
+  }
+  .bottomLeftSecond
+  {
+      margin-top: 20px;
+      /* padding-top: 20px; */
+  }
+  .bottomMiddleSecond
+  {
+      margin-bottom: 50px
+  }
+  .mobilePrices span
+  {
+      color: #0dabca;
+      
+  }
+  .cardsPart5 .firstpar
+  {
+      color: #530586;
+  }
+  .secondpar
+  {
+      margin-top: 10px;
+  }
+/* Footer styling */
+.fbIcon, .twitterIcon, .rssIcon
+{
+    margin-top: 10px;
+    font-size: 25px;
+    color: gray;
+    text-align: center;
+}
+.footerDiv
+{
+    margin-left: 500px;
+    float: left;
+    text-align: center;
+}
+.footerDiv p
+{  
+    color: gray;
+    margin-top: 0;
+}
+#lastimg
+{
+    margin-top: 20px;
+    margin-left: 0;
+    float: left;
+} 
